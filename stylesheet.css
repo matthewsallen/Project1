@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:700|Ranga" rel="stylesheet"/> 
+		<link rel="stylesheet" href="resources/stylesheet.css"/>
+		<link rel="icon" type="image/png" href="resources/favicon.png"/>
+		<title>Index</title>
+	</head>
+	<body>
+		<div id="container">
+			<div id="sidebar">
+				<img src="resources/itc-logo.png" id="logo"/><br/>
+				<a href="index.html" class="sidebar-entry">Home</a>
+				<a href="antonia.html" class="sidebar-entry">Antonia</a>
+				<a href="gerald.html" class="sidebar-entry">Gerald</a>
+				<a href="matt.html" class="sidebar-entry">Matt</a>
+				<a href="terry.html" class="sidebar-entry">Terry</a>
+				<a href="css.html" class="sidebar-entry">CSS</a>
+				<a href="html.html" class="sidebar-entry">HTML</a>
+				<a href="javascript.html" class="sidebar-entry">JavaScript</a>
+				<a href="funstuff.html" class="sidebar-entry">Fun Stuff</a>
+			</div>
+			<div class="search-container">
+				<form action="www.google.com">
+					<input type="text" placeholder="Search..." name="search">
+					<button type="submit">Submit</button>
+				</form>
+			</div>
+			<br/>
+			<div id="main">
+				<button type="button" onclick="document.getElementById('demo').style.display='block'">Welcome!</button>
+				<p id="demo" style="display:none">Welcome to our group project website. Antonia, Gerald, Matt and Terry have created this as a project for ITC102 at Seattle Central College.</p>
+				<h1 id="main-title">Group Project</h1>
+				<p id="main-text">This page was created for our group project for ITC 102. Our members are Antonia, Gerald, Matt and Terry. In this class we have learned how to format HTML, CSS and JavaScript together to create a cohesive webpage.</p>
+				<div id="navbar">
+					<a href="index.html" class="navbutton">Home</a>
+					<a href="antonia.html" class="navbutton">Antonia</a>
+					<a href="gerald.html" class="navbutton">Gerald</a>
+					<a href="matt.html" class="navbutton">Matt</a>
+					<a href="terry.html" class="navbutton">Terry</a>
+					<a href="html.html" class="navbutton">HTML</a>
+					<a href="css.html" class="navbutton">CSS</a>
+					<a href="javascript.html" class="navbutton">JavaScript</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html> 
